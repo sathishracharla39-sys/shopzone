@@ -2,7 +2,19 @@
 
 A modern E-Commerce Single Page Application built with React, React Router, and Context API.
 
+## Live Demo
+https://shopzone-olive.vercel.app/
+
 ## Features
+- Product Listing
+- Product Details
+- Shopping Cart
+- Cart Persistence
+- Login & Logout
+- Protected Checkout
+- Order Summary
+- Order Placement
+- Responsive Design
 
 ### Routing
 - Home Page
@@ -46,7 +58,7 @@ A modern E-Commerce Single Page Application built with React, React Router, and 
 - JavaScript
 - CSS3
 - Vite
-- Local Storage
+- Vercel
 
 ## API Used
 
