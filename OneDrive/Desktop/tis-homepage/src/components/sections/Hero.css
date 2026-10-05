@@ -1,0 +1,127 @@
+.hero {
+  min-height: 100vh;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 30, 32, 0.82) 0%,
+      rgba(8, 30, 32, 0.55) 45%,
+      rgba(8, 30, 32, 0.2) 100%
+    ),
+    url("/hero-campus.jpg") center / cover no-repeat;
+
+  color: #ffffff;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+
+  width: min(1200px, 92%);
+  margin: 0 auto;
+
+  padding-top: 80px;
+}
+
+.hero-label {
+  margin-bottom: 20px;
+
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #e0c19d;
+}
+
+.hero h1 {
+  max-width: 850px;
+  margin: 0;
+
+  font-size: clamp(48px, 7vw, 92px);
+  line-height: 0.98;
+  letter-spacing: -3px;
+  font-weight: 700;
+}
+
+.hero-description {
+  max-width: 550px;
+  margin: 30px 0;
+
+  font-size: 18px;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.hero-primary,
+.hero-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+
+  padding: 15px 22px;
+
+  border-radius: 30px;
+
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+
+  transition:
+    transform 0.3s ease,
+    background 0.3s ease;
+}
+
+.hero-primary {
+  background: #e0c19d;
+  color: #102a2d;
+}
+
+.hero-primary:hover {
+  transform: translateY(-3px);
+  background: #ffffff;
+}
+
+.hero-secondary {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+}
+
+.hero-secondary:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.hero-scroll {
+  position: absolute;
+  z-index: 2;
+
+  right: 4%;
+  bottom: 35px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  transform: rotate(90deg);
+  transform-origin: right center;
+
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.scroll-line {
+  width: 60px;
+  height: 1px;
+  background: #ffffff;
+}

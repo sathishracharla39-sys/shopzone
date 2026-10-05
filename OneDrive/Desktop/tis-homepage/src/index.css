@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  background: #f8f6ef;
+  color: #102a2d;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+}

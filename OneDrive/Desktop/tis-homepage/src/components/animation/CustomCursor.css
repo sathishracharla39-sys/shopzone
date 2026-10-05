@@ -1,0 +1,36 @@
+.custom-cursor {
+  position: fixed;
+
+  top: 0;
+  left: 0;
+
+  width: 18px;
+  height: 18px;
+
+  border: 1px solid #e0c19d;
+  border-radius: 50%;
+
+  pointer-events: none;
+
+  z-index: 3000;
+
+  transform: translate(-50%, -50%);
+
+  transition:
+    width 0.2s ease,
+    height 0.2s ease,
+    background 0.2s ease;
+}
+
+.custom-cursor.cursor-hover {
+  width: 38px;
+  height: 38px;
+
+  background: rgba(224, 193, 157, 0.15);
+}
+
+@media (pointer: coarse) {
+  .custom-cursor {
+    display: none;
+  }
+}
